@@ -1,0 +1,28 @@
+#myfooter {
+    background-color: #2b2b2e; /* Azul oscuro */
+    color: white;
+  }
+
+#title {
+    font-size: 24px; /* Cambia el tamaño del texto del enlace */
+    padding: 20px; /* Ajusta el espaciado interior del enlace */
+}
+  
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 1px;
+    text-align: left;
+    /* Alineación horizontal centrada */
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+/* Alineación horizontal a la izquierda */
+td {
+    text-align: left;
+}
