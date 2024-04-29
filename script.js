@@ -97,7 +97,7 @@ function iniciarSesion(usuario) {
     if ((usuario === "Melissa" && contraseña === "2101") || (usuario === "Diana" && contraseña === "5779")) {
         // Almacenar el nombre de usuario en el almacenamiento local
         localStorage.setItem('usuario', usuario);
-        window.location.href = "index.html";
+        window.location.href = "home.html";
     } else {
         mostrarResultadoAutenticacion("danger", "Usuario o contraseña incorrectos");
     }
