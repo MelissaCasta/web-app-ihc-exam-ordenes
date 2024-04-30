@@ -66,7 +66,12 @@ if (!('webkitSpeechRecognition' in window)) {
           enviarDatos(textC);
         } else 
         
-        if (result.includes("apaga el jardín")) {
+        if (result.includes("apagar el jardín")) {
+          console.log("Jardín Apagado");
+          enviarDatos(textC);
+        } else 
+
+          if (result.includes("apaga el jardín")) {
           console.log("Jardín Apagado");
           enviarDatos(textC);
         } else 
