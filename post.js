@@ -139,6 +139,16 @@ if (!('webkitSpeechRecognition' in window)) {
           console.log("Cámara Tres Apagada");
           enviarDatos(textC);
         }
+        
+        if (result.includes("enciende la cámara 3")) {
+          console.log("Cámara Tres Apagada");
+          enviarDatos(textC);
+        } else
+        
+        if (result.includes("apaga la cámara 3")) {
+          console.log("Cámara Tres Apagada");
+          enviarDatos(textC);
+        }
 
         function enviarDatos(textoCom) {
           const apiUrl = "https://662ee83443b6a7dce30dfb95.mockapi.io/comando";
