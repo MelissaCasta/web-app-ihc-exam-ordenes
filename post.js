@@ -70,6 +70,10 @@ if (!('webkitSpeechRecognition' in window)) {
           console.log("Jardín Apagado");
           enviarDatos(textC);
         } else 
+          if (result.includes("Apaga el jardín")) {
+          console.log("Jardín Apagado");
+          enviarDatos(textC);
+        } else
         
         if (result.includes("enciende el ventilador")) {
           console.log("Ventilador Encendido");
