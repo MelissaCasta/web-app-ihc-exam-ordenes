@@ -98,7 +98,12 @@ if (!('webkitSpeechRecognition' in window)) {
         if (result.includes("desactiva la alarma")) {
           console.log("Alarma Desactivada");
           enviarDatos(textC);
-        } else 
+        } else
+          
+          if (result.includes("Desactiva la alarma")) {
+          console.log("Alarma Desactivada");
+          enviarDatos(textC);
+        } else
 
         if (result.includes("enciende las cámaras")) {
           console.log("Cámaras Encendidas");
